@@ -1,0 +1,3 @@
+skillbox is a learning platform for developers and designers
+many courses on programming and design are available on skillbox
+people can learn new skills and improve their knowledge using skillbox 

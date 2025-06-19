@@ -1,0 +1,3 @@
+search engines use algorithms to find relevant information
+google and yandex are popular search engines
+search engines analyze websites and index their content 
