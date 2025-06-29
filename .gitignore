@@ -1,0 +1,25 @@
+# IDE specific files
+.idea/
+.vscode/
+
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll 

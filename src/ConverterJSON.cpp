@@ -3,6 +3,10 @@
 #include <iostream>
 #include <filesystem>
 
+const std::string CONFIG_PATH = "./config/config.json";
+const std::string REQUESTS_PATH = "./config/requests.json";
+const std::string ANSWERS_PATH = "./config/answers.json";
+
 nlohmann::json ConverterJSON::readJSON(const std::string& filePath) {
     try {
         std::ifstream file(filePath);

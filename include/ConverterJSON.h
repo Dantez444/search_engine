@@ -21,10 +21,13 @@ public:
 
     void putAnswers(std::vector<std::vector<std::pair<int, float>>> answers);
 
+    std::string GetName();
+    std::string GetVersion();
+
 private:
-    const std::string CONFIG_PATH = "../config/config.json";
-    const std::string REQUESTS_PATH = "../config/requests.json";
-    const std::string ANSWERS_PATH = "../config/answers.json";
+    const std::string CONFIG_PATH = "./config/config.json";
+    const std::string REQUESTS_PATH = "./config/requests.json";
+    const std::string ANSWERS_PATH = "./config/answers.json";
     
     nlohmann::json readJSON(const std::string& filePath);
     void writeJSON(const std::string& filePath, const nlohmann::json& jsonData);
